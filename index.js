@@ -14,4 +14,8 @@ function save() {
     count = 0
 }
 
+// Make functions globally available for onclick handlers
+window.increment = increment
+window.save = save
+
 console.log("Let's count people on the subway!")
